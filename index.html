@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-logo">YN</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#work">Work</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-label">Portfolio 2026</div>
+                <h1 class="hero-title">
+                    <span class="hero-title-line">Creative</span>
+                    <span class="hero-title-line">Developer &</span>
+                    <span class="hero-title-line">Designer</span>
+                </h1>
+                <p class="hero-description">
+                    Crafting digital experiences that blend aesthetic excellence with technical precision.
+                    Based in Chennai, working globally.
+                </p>
+                <div class="hero-cta">
+                    <a href="#work" class="btn btn-primary">View Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                </div>
+            </div>
+            <div class="hero-scroll">
+                <div class="scroll-indicator">
+                    <span>Scroll</span>
+                    <div class="scroll-line"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-grid">
+                <div class="about-content">
+                    <p class="about-lead">
+                        I'm a full-stack developer and designer who believes in the power of 
+                        thoughtful design and clean code to create meaningful digital experiences.
+                    </p>
+                    <p>
+                        With expertise in modern web technologies and a keen eye for aesthetics, 
+                        I specialize in building responsive, accessible, and performant applications 
+                        that users love to interact with.
+                    </p>
+                    <p>
+                        When I'm not coding, you'll find me exploring new design trends, 
+                        contributing to open-source projects, or sharing knowledge with the 
+                        developer community.
+                    </p>
+                    <div class="skills-list">
+                        <div class="skill-category">
+                            <h3>Frontend</h3>
+                            <ul>
+                                <li>React / Next.js</li>
+                                <li>TypeScript</li>
+                                <li>CSS / Tailwind</li>
+                                <li>Vue.js</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Backend</h3>
+                            <ul>
+                                <li>Node.js</li>
+                                <li>Python</li>
+                                <li>PostgreSQL</li>
+                                <li>GraphQL</li>
+                            </ul>
+                        </div>
+                        <div class="skill-category">
+                            <h3>Tools</h3>
+                            <ul>
+                                <li>Git / GitHub</li>
+                                <li>Figma</li>
+                                <li>Docker</li>
+                                <li>AWS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <div class="image-placeholder">
+                            <!-- Replace with your image -->
+                            <div class="image-frame"></div>
+                        </div>
+                    </div>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <div class="stat-number">5+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">50+</div>
+                            <div class="stat-label">Projects Completed</div>
+                        </div>
+                        <div class="stat">
+                            <div class="stat-number">30+</div>
+                            <div class="stat-label">Happy Clients</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="work" class="work">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Selected Work</h2>
+            </div>
+            <div class="projects-grid">
+                <article class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-image-overlay"></div>
+                        <!-- Replace with your project image -->
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-category">Web App</span>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-description">
+                            A modern e-commerce solution with real-time inventory management, 
+                            payment integration, and responsive design.
+                        </p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="design">
+                    <div class="project-image">
+                        <div class="project-image-overlay"></div>
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-category">Design System</span>
+                            <span class="project-year">2024</span>
+                        </div>
+                        <h3 class="project-title">Component Library</h3>
+                        <p class="project-description">
+                            A comprehensive design system with reusable components, 
+                            documentation, and accessibility guidelines.
+                        </p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Storybook</span>
+                            <span>Figma</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="app">
+                    <div class="project-image">
+                        <div class="project-image-overlay"></div>
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-category">Mobile App</span>
+                            <span class="project-year">2023</span>
+                        </div>
+                        <h3 class="project-title">Fitness Tracker</h3>
+                        <p class="project-description">
+                            A cross-platform fitness tracking app with workout plans, 
+                            progress tracking, and social features.
+                        </p>
+                        <div class="project-tags">
+                            <span>React Native</span>
+                            <span>Firebase</span>
+                            <span>GraphQL</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-image-overlay"></div>
+                        <div class="project-placeholder" style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%);"></div>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-meta">
+                            <span class="project-category">Dashboard</span>
+                            <span class="project-year">2023</span>
+                        </div>
+                        <h3 class="project-title">Analytics Dashboard</h3>
+                        <p class="project-description">
+                            Real-time analytics dashboard with data visualization, 
+                            customizable widgets, and export capabilities.
+                        </p>
+                        <div class="project-tags">
+                            <span>Vue.js</span>
+                            <span>D3.js</span>
+                            <span>Python</span>
+                        </div>
+                        <a href="#" class="project-link">View Project →</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <p class="contact-lead">
+                        I'm always open to discussing new projects, creative ideas, 
+                        or opportunities to be part of your vision.
+                    </p>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <span class="contact-label">Email</span>
+                            <a href="mailto:your.email@example.com" class="contact-value">your.email@example.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Phone</span>
+                            <a href="tel:+1234567890" class="contact-value">+1 (234) 567-890</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-label">Location</span>
+                            <span class="contact-value">Chennai, India</span>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://github.com/yourusername" target="_blank" class="social-link">GitHub</a>
+                        <a href="https://linkedin.com/in/yourusername" target="_blank" class="social-link">LinkedIn</a>
+                        <a href="https://twitter.com/yourusername" target="_blank" class="social-link">Twitter</a>
+                        <a href="https://dribbble.com/yourusername" target="_blank" class="social-link">Dribbble</a>
+                    </div>
+                </div>
+                <div class="contact-form-wrapper">
+                    <div class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">Your Name</div>
+                    <p class="footer-tagline">Building digital experiences with passion</p>
+                </div>
+                <div class="footer-right">
+                    <p>&copy; 2026 All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
